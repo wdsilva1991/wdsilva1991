@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+
+}
+
+
+
+body{
+    background: rgba(0, 0, 0, 0.6) url('bmw.pbg') center center fixed;
+    background-size: cover;
+    background-blend-mode: darken;
+    
+    
+}
+
+.container{
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container h1{
+    color: #fff;
+    font-weight: 700 ;
+    font-size: 40px;
+    cursor: pointer;
+
+}
+
+.navbar ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0 20px;
+}
+
+.navbar ul li a{
+    padding: 9px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    transition: 1s;
+}
+
+.navbar ul li a:hover{
+    background-color: rgba(55, 20, 252, 0.948);
+    border: none;
+    outline: none;
+    border-radius:40px ;
+
+}
+
+.content{
+    position: absolute;
+    color: #fff;
+    margin-top: 11%;
+    margin-left: 63%;
+    
+
+}
+
+.content h1{
+    font-size: 50px;
+}
+
+.search{
+    position: absolute;
+    margin-top: -10%;
+    margin-left: 63%;
+   
+
+
+}
+
+.search input{
+    padding: 20px;
+    width: 500px;
+    border: 0;
+    outline: none;
+}
+
+.submit{
+    position: absolute;
+    margin-top: -3%;
+    margin-left: 63%;
+}
+
+.submit a{
+    padding: 17px 24px;
+    color: #fff;
+    background-color: rgba(74, 16, 250, 0.93);
+    text-decoration: none;
+    border: none;
+    outline: none;
+    border-radius:40px 
+
+}
