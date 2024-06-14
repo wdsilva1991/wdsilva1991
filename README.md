@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EFW MOTO PEÇAS</title>
+    <link rel="stylesheet" href="EFW.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <h1>EFW MOTOS <br>PEÇAS E SERVIÇOS</h1>
+        <div class="navbar">
+            <ul>
+                <li><a href="#">MOTOS</a></li>
+                <li><a href="#">PEÇAS</a></li>
+                <li><a href="https://www.yamaha-motor.com.br/servicos">SERVIÇOS</a></li>
+                <li><a href="./Formulario.html">LOGIN</a></li>
+
+    
+                         
+            </ul>
+
+        </div>
+    </div>
+    <div class="content">
+        <h1> Conheça sua nova moto <br></h1>
+    </div>
+
+    <video src="./Nova Yamaha Fazer FZ15 ABS.mp4"
+
+    controls
+    width="900"
+    autoplay
+    muted
+
+    >
+
+</video>
+    <div class="search">
+        <input type="text" placeholder="Modelos Exclusivos" >
+    </div>
+    <div class="submit">
+        <a href="#">Buscar</a>
+    </div>
+
+</body>
+
+</html>
